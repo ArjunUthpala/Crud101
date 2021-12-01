@@ -1,3 +1,3 @@
 module.exports = {
-  pathPrefix: '/my-project',
+  pathPrefix: '/Crud101',
 }
