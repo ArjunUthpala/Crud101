@@ -1,25 +1,4 @@
-<?php 
-    include 'php/connection.php';
-    
-    if(isset($_POST['submit'])){
-    
-        $First_name=$_POST["fname"];
-        $Last_name=$_POST["lname"];
-        $Email=$_POST["email"];
-        $Mobile=$_POST["mob"];
-    
-     $sql="INSERT INTO student (First_name, Last_name, Email, Mobile)
-      VALUES('$First_name','$Last_name','$Email','$Mobile')";
-    
-    $result=mysqli_query($con,$sql);
-    if($result){
-        echo "Data inserted successfully!";
-    }
-    else{
-        die("Connection failed: " . mysqli_connect_error());
-    }
-}
-?>
+
      
 
 <!DOCTYPE html>
