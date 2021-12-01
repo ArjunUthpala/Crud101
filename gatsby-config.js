@@ -1,3 +1,3 @@
 module.exports = {
-  pathPrefix: '/Crud101',
+  pathPrefix: '/Crud101/php',
 }
